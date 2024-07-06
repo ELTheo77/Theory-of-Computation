@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFA - Theory of Computation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dfa.html">DFA</a></li>
+                <li><a href="nfa.html">NFA</a></li>
+                <li><a href="cfg.html">CFG</a></li>
+                <li><a href="pda.html">PDA</a></li>
+                <li><a href="regex.html">Regex</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <main>
+            <div class="circle"></div>
+            <div class="circle2"></div>
+            <h1>Deterministic Finite Automata (DFA)</h1>
+            <form id="dfa-form">
+                <label for="dfa-definition">DFA Definition:</label><br>
+                <textarea id="dfa-definition" name="dfa-definition" rows="5" cols="50" required></textarea><br>
+                <label for="input-string">Input String:</label><br>
+                <input type="text" id="input-string" name="input-string" required><br>
+                <button type="submit">Validate DFA and Check String</button>
+            </form>
+            <div id="dfa-result"></div>
+        </main>
+    </div>
+
+        <footer>
+            <div>
+                By Teo,
+                Your Friendly Neighbourhood Developer
+            </div>
+        </footer>
+
+        <script src="dfa.js"></script>
+</body>
+</html>

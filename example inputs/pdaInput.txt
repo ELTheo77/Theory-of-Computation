@@ -1,0 +1,10 @@
+q0,q1,q2
+a,b
+Z
+q0
+q2
+q0,e,Z,q1,XZ
+q1,a,X,q1,XX
+q1,b,X,q2,e
+q2,b,X,q2,e
+q2,e,Z,q2,e
